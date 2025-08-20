@@ -1,0 +1,92 @@
+flashcards = [
+    {
+        "problem_type": "Array Manipulation",
+        "signals": ["sliding window", "max subarray", "window", "range", "contiguous"],
+        "patterns": ["Sliding Window", "Prefix Sum", "Two Pointers"],
+        "why": "Optimize over contiguous segments",
+    },
+    {
+        "problem_type": "Searching in Arrays",
+        "signals": ["target", "sorted", "find", "position", "search"],
+        "patterns": ["Binary Search", "Two Pointers"],
+        "why": "Fast lookup in sorted data",
+    },
+    {
+        "problem_type": "Pairing / Matching",
+        "signals": ["two sum", "closest pair", "grouping", "pair", "match"],
+        "patterns": ["Hashing", "Sorting + Greedy", "Two Pointers"],
+        "why": "Efficient pairing via structure",
+    },
+    {
+        "problem_type": "Subsets / Combinations",
+        "signals": ["all combinations", "subsets", "permutations", "generate", "explore"],
+        "patterns": ["Backtracking", "Recursion"],
+        "why": "Explore all possibilities",
+    },
+    {
+        "problem_type": "Dynamic Decisions",
+        "signals": ["max profit", "min cost", "choices", "states", "optimal substructure"],
+        "patterns": ["Dynamic Programming (DP)"],
+        "why": "Optimal substructure, overlapping subproblems",
+    },
+    {
+        "problem_type": "Graph Traversal",
+        "signals": ["connected", "path", "cycle", "reachability", "graph", "edge", "node"],
+        "patterns": ["BFS", "DFS", "Union-Find"],
+        "why": "Explore relationships and connectivity",
+    },
+    {
+        "problem_type": "Tree Problems",
+        "signals": ["traverse", "depth", "ancestor", "balanced", "tree", "root", "leaf"],
+        "patterns": ["DFS", "Recursion", "Binary Search Tree (BST)"],
+        "why": "Hierarchical structure traversal",
+    },
+    {
+        "problem_type": "Greedy Optimization",
+        "signals": ["maximize", "minimize", "locally optimal", "greedy"],
+        "patterns": ["Greedy"],
+        "why": "Local choices lead to global optimum",
+    },
+    {
+        "problem_type": "Interval Scheduling",
+        "signals": ["overlap", "merge", "meeting rooms", "range", "intervals"],
+        "patterns": ["Sorting + Greedy", "Sweep Line"],
+        "why": "Sort and process events efficiently",
+    },
+    {
+        "problem_type": "String Matching / Parsing",
+        "signals": ["substring", "pattern", "anagram", "valid", "string", "parse"],
+        "patterns": ["Hashing", "Sliding Window", "Stack"],
+        "why": "Track frequency, structure, or balance",
+    },
+    {
+        "problem_type": "Monotonic Behavior",
+        "signals": ["next greater", "increasing", "stock span", "monotonic"],
+        "patterns": ["Monotonic Stack / Queue"],
+        "why": "Track trends with efficient memory",
+    },
+    {
+        "problem_type": "Heap / Priority Scheduling",
+        "signals": ["kth largest", "top k", "merge sorted", "heap", "priority queue"],
+        "patterns": ["Min/Max Heap", "Priority Queue"],
+        "why": "Efficient selection from dynamic data",
+    },
+    {
+        "problem_type": "Bit Manipulation",
+        "signals": ["xor", "parity", "toggle", "mask", "bit", "manipulation", "masking", "bits"],
+        "patterns": ["Bitmasking", "XOR tricks"],
+        "why": "Constant-time operations on bits",
+    },
+    {
+        "problem_type": "Math / Number Theory",
+        "signals": ["gcd", "modulo", "prime", "divisible", "math", "number theory"],
+        "patterns": ["Euclidean Algorithm", "Sieve", "Modular Arithmetic"],
+        "why": "Mathematical properties for optimization",
+    },
+    {
+        "problem_type": "Game Theory / Strategy",
+        "signals": ["win", "lose", "turns", "optimal play", "game theory"],
+        "patterns": ["DP + Minimax", "Grundy Numbers"],
+        "why": "Strategic decision-making under constraints",
+    },
+]
